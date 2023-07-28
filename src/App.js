@@ -1,8 +1,9 @@
 import './App.css';
+import GetInputValue from './Components/GetInputValue';
 // import ClassComponent from './Components/ClassComponent';
 // import ClickEvent from './Components/ClickEvent';
 // import FunctionalComp from './Components/FunctionalComp';
-import PropsClass from './Components/PropsClass';
+// import PropsClass from './Components/PropsClass';
 // import PropsInFunctional from './Components/PropsInFunctional';
 // import State from './Components/State';
 // import StateInClass from './Components/StateInClass';
@@ -16,7 +17,8 @@ function App() {
       <State />
       <StateInClass /> */}
       {/* <PropsInFunctional /> */}
-      <PropsClass />
+      {/* <PropsClass /> */}
+      <GetInputValue />
     </div>
   );
 }
