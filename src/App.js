@@ -1,10 +1,11 @@
 import './App.css';
-import ClassComponent from './Components/ClassComponent';
-import ClickEvent from './Components/ClickEvent';
-import FunctionalComp from './Components/FunctionalComp';
-import PropsInFunctional from './Components/PropsInFunctional';
-import State from './Components/State';
-import StateInClass from './Components/StateInClass';
+// import ClassComponent from './Components/ClassComponent';
+// import ClickEvent from './Components/ClickEvent';
+// import FunctionalComp from './Components/FunctionalComp';
+import PropsClass from './Components/PropsClass';
+// import PropsInFunctional from './Components/PropsInFunctional';
+// import State from './Components/State';
+// import StateInClass from './Components/StateInClass';
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       <ClickEvent /> 
       <State />
       <StateInClass /> */}
-      <PropsInFunctional />
+      {/* <PropsInFunctional /> */}
+      <PropsClass />
     </div>
   );
 }
