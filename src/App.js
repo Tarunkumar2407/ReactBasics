@@ -3,6 +3,7 @@ import ClassComponent from './Components/ClassComponent';
 import ClickEvent from './Components/ClickEvent';
 import FunctionalComp from './Components/FunctionalComp';
 import State from './Components/State';
+import StateInClass from './Components/StateInClass';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <ClassComponent />
       <ClickEvent /> 
       <State />
+      <StateInClass />
     </div>
   );
 }
