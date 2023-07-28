@@ -1,6 +1,7 @@
 import './App.css';
 // import Constructor from './Components/Constructor';
-import Render from './Components/Render';
+// import Render from './Components/Render';
+import UseEffectHook from './Components/UseEffectHook';
 // import ConditiondalRendering from './Components/ConditiondalRendering';
 // import FormValidation from './Components/FormValidations';
 // import FormHandling from './Components/FormHandling';
@@ -30,7 +31,8 @@ function App() {
       {/* <ConditiondalRendering /> */}
       {/* <FormValidation /> */}
       {/* <Constructor /> */}
-      <Render />
+      {/* <Render /> */}
+      <UseEffectHook />
     </div>
   );
 }
