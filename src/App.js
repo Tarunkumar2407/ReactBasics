@@ -1,5 +1,6 @@
 import './App.css';
-import Constructor from './Components/Constructor';
+// import Constructor from './Components/Constructor';
+import Render from './Components/Render';
 // import ConditiondalRendering from './Components/ConditiondalRendering';
 // import FormValidation from './Components/FormValidations';
 // import FormHandling from './Components/FormHandling';
@@ -28,7 +29,8 @@ function App() {
       {/* <FormHandling /> */}
       {/* <ConditiondalRendering /> */}
       {/* <FormValidation /> */}
-      <Constructor />
+      {/* <Constructor /> */}
+      <Render />
     </div>
   );
 }

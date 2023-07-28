@@ -13,6 +13,7 @@ const FormValidation = () => {
          if(!name || !email || !termsCondition || city){
             alert("All fields are necessary")
          }
+         handlePassword();
          console.log(name, email, password, confirmPassword, termsCondition, city)
     }
 
@@ -20,12 +21,15 @@ const FormValidation = () => {
         if(password !== confirmPassword){
             alert("Paswords are not matching")
         }
+        else{
+            alert("All good")
+        }
     }
 
     
   return (
     <div>
-    <form onSubmit={handleSubmit, handlePassword}>
+    <form onSubmit={handleSubmit}>
       <h2>Hi User</h2>
       <input type='text' onChange={(e)=>setName(e.target.value)} placeholder='Enter your name'></input><br />
       <input type='email' onChange={(e)=>setEmail(e.target.value)} placeholder='Enter your email'></input><br />
