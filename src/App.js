@@ -1,7 +1,8 @@
 import './App.css';
+import UseEffect2 from './Components/UseEffect2';
 // import Constructor from './Components/Constructor';
 // import Render from './Components/Render';
-import UseEffectHook from './Components/UseEffectHook';
+// import UseEffectHook from './Components/UseEffectHook';
 // import ConditiondalRendering from './Components/ConditiondalRendering';
 // import FormValidation from './Components/FormValidations';
 // import FormHandling from './Components/FormHandling';
@@ -32,7 +33,8 @@ function App() {
       {/* <FormValidation /> */}
       {/* <Constructor /> */}
       {/* <Render /> */}
-      <UseEffectHook />
+      {/* <UseEffectHook /> */}
+      <UseEffect2 />
     </div>
   );
 }
