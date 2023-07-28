@@ -1,6 +1,7 @@
 import './App.css';
-import GetInputValue from './Components/GetInputValue';
-import HideShow from './Components/HideShow';
+import FormHandling from './Components/FormHandling';
+// import GetInputValue from './Components/GetInputValue';
+// import HideShow from './Components/HideShow';
 // import ClassComponent from './Components/ClassComponent';
 // import ClickEvent from './Components/ClickEvent';
 // import FunctionalComp from './Components/FunctionalComp';
@@ -20,7 +21,8 @@ function App() {
       {/* <PropsInFunctional /> */}
       {/* <PropsClass /> */}
       {/* <GetInputValue /> */}
-      <HideShow />
+      {/* <HideShow /> */}
+      <FormHandling />
     </div>
   );
 }
