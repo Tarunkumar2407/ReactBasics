@@ -1,5 +1,6 @@
 import './App.css';
 import GetInputValue from './Components/GetInputValue';
+import HideShow from './Components/HideShow';
 // import ClassComponent from './Components/ClassComponent';
 // import ClickEvent from './Components/ClickEvent';
 // import FunctionalComp from './Components/FunctionalComp';
@@ -18,7 +19,8 @@ function App() {
       <StateInClass /> */}
       {/* <PropsInFunctional /> */}
       {/* <PropsClass /> */}
-      <GetInputValue />
+      {/* <GetInputValue /> */}
+      <HideShow />
     </div>
   );
 }
