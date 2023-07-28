@@ -1,6 +1,7 @@
 import './App.css';
-import ConditiondalRendering from './Components/ConditiondalRendering';
-import FormValidation from './Components/FormValidations';
+import Constructor from './Components/Constructor';
+// import ConditiondalRendering from './Components/ConditiondalRendering';
+// import FormValidation from './Components/FormValidations';
 // import FormHandling from './Components/FormHandling';
 // import GetInputValue from './Components/GetInputValue';
 // import HideShow from './Components/HideShow';
@@ -26,7 +27,8 @@ function App() {
       {/* <HideShow /> */}
       {/* <FormHandling /> */}
       {/* <ConditiondalRendering /> */}
-      <FormValidation />
+      {/* <FormValidation /> */}
+      <Constructor />
     </div>
   );
 }
