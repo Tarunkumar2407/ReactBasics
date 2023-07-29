@@ -1,5 +1,6 @@
 import './App.css';
-import UseStateWithArray from './Components/useState.js/UseStateWithArray';
+import UseEffectWtihFetchData from './Components/useEffect.js/UseEffectWtihFetchData';
+// import UseStateWithArray from './Components/useState.js/UseStateWithArray';
 // import Parent from './Components/useCallback.js/Parent';
 // import UseStateWithObject from './Components/useState.js/UseStateWithObject';
 // import UseEffect2 from './Components/UseEffect2';
@@ -42,7 +43,8 @@ function App() {
       {/* <UseMemoHook /> */}
       {/* <Parent /> */}
       {/* <UseStateWithObject /> */}
-      <UseStateWithArray />
+      {/* <UseStateWithArray /> */}
+      <UseEffectWtihFetchData />
     </div>
   );
 }
