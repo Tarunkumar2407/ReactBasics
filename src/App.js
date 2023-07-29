@@ -1,5 +1,6 @@
 import './App.css';
-import UseEffect2 from './Components/UseEffect2';
+// import UseEffect2 from './Components/UseEffect2';
+import UseMemoHook from './Components/UseMemoHook';
 // import Constructor from './Components/Constructor';
 // import Render from './Components/Render';
 // import UseEffectHook from './Components/UseEffectHook';
@@ -34,7 +35,8 @@ function App() {
       {/* <Constructor /> */}
       {/* <Render /> */}
       {/* <UseEffectHook /> */}
-      <UseEffect2 />
+      {/* <UseEffect2 /> */}
+      <UseMemoHook />
     </div>
   );
 }
