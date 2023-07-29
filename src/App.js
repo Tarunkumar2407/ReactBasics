@@ -1,6 +1,7 @@
 import './App.css';
+import Parent from './Components/useCallback.js/Parent';
 // import UseEffect2 from './Components/UseEffect2';
-import UseMemoHook from './Components/UseMemoHook';
+// import UseMemoHook from './Components/UseMemoHook';
 // import Constructor from './Components/Constructor';
 // import Render from './Components/Render';
 // import UseEffectHook from './Components/UseEffectHook';
@@ -36,7 +37,8 @@ function App() {
       {/* <Render /> */}
       {/* <UseEffectHook /> */}
       {/* <UseEffect2 /> */}
-      <UseMemoHook />
+      {/* <UseMemoHook /> */}
+      <Parent />
     </div>
   );
 }
