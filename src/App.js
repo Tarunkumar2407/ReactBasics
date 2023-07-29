@@ -1,5 +1,6 @@
 import './App.css';
-import FetchData from './Components/useEffect.js/FetchData';
+import AxiosData from './Components/useEffect.js/AxiosData';
+// import FetchData from './Components/useEffect.js/FetchData';
 // import UseEffectWtihFetchData from './Components/useEffect.js/UseEffectWtihFetchData';
 // import UseStateWithArray from './Components/useState.js/UseStateWithArray';
 // import Parent from './Components/useCallback.js/Parent';
@@ -46,7 +47,8 @@ function App() {
       {/* <UseStateWithObject /> */}
       {/* <UseStateWithArray /> */}
       {/* <UseEffectWtihFetchData /> */}
-      <FetchData />
+      <AxiosData />
+      {/* <FetchData /> */}
     </div>
   );
 }
