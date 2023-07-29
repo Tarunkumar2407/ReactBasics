@@ -4,18 +4,19 @@ const UseEffectHook = () => {
 
     const [count , setCount] = useState(0)
 
-    useEffect(() => {
-        setTimeout(()=>{
-            setCount((count) => count + 1)
-        },1000)
-    })
-
     // useEffect(() => {
     //     console.log("i am called")
     //     setTimeout(()=>{
     //         setCount((count) => count + 1)
     //     },1000)
-    // }, [])
+    // })
+
+    useEffect(() => {
+        console.log("i am called")
+        setTimeout(()=>{
+            setCount((count) => count + 1)
+        },1000)
+    }, [])
 
     // useEffect(() => {
     //     console.log("i am called")
@@ -23,8 +24,11 @@ const UseEffectHook = () => {
     //         setCount((count) => count + 1)
     //     },1000)
 
-    //     return () => clearTimeout(timer)
-    // }, [])
+    //     return () => {
+    //       console.log("i am unmounted")
+    //       clearTimeout(timer)
+    //     }  
+    // },[])
 
 
 

@@ -1,5 +1,5 @@
 import './App.css';
-import AxiosData from './Components/useEffect.js/AxiosData';
+// import AxiosData from './Components/useEffect.js/AxiosData';
 // import FetchData from './Components/useEffect.js/FetchData';
 // import UseEffectWtihFetchData from './Components/useEffect.js/UseEffectWtihFetchData';
 // import UseStateWithArray from './Components/useState.js/UseStateWithArray';
@@ -10,6 +10,8 @@ import AxiosData from './Components/useEffect.js/AxiosData';
 // import Constructor from './Components/Constructor';
 // import Render from './Components/Render';
 // import UseEffectHook from './Components/UseEffectHook';
+// import HookMouse from './Components/useEffect.js/HookMouse';
+import MouseContainerCleanup from './Components/useEffect.js/MouseContainerCleanup';
 // import ConditiondalRendering from './Components/ConditiondalRendering';
 // import FormValidation from './Components/FormValidations';
 // import FormHandling from './Components/FormHandling';
@@ -47,8 +49,10 @@ function App() {
       {/* <UseStateWithObject /> */}
       {/* <UseStateWithArray /> */}
       {/* <UseEffectWtihFetchData /> */}
-      <AxiosData />
+      {/* <AxiosData /> */}
       {/* <FetchData /> */}
+      {/* <HookMouse /> */}
+      <MouseContainerCleanup />
     </div>
   );
 }
