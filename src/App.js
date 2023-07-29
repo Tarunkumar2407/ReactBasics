@@ -1,6 +1,7 @@
 import './App.css';
+import UseContext from './Components/useContextHook/ContextAPI/propDrilling/UseContext';
 // import PropParent from './Components/ContextAPI/PropParent';
-import PropParentContextAPI from './Components/ContextAPI/propDrilling/PropParentContextAPI';
+// import PropParentContextAPI from './Components/ContextAPI/propDrilling/PropParentContextAPI';
 // import AxiosData from './Components/useEffect.js/AxiosData';
 // import FetchData from './Components/useEffect.js/FetchData';
 // import UseEffectWtihFetchData from './Components/useEffect.js/UseEffectWtihFetchData';
@@ -56,7 +57,8 @@ function App() {
       {/* <HookMouse /> */}
       {/* <MouseContainerCleanup /> */}
       {/* <PropParent /> */}
-      <PropParentContextAPI />
+      {/* <PropParentContextAPI /> */}
+      <UseContext />
     </div>
   );
 }
