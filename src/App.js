@@ -1,5 +1,6 @@
 import './App.css';
-import UseContext from './Components/useContextHook/ContextAPI/propDrilling/UseContext';
+// import UseContext from './Components/useContextHook/ContextAPI/propDrilling/UseContext';
+import CountByReducer from './Components/useReducer/CountByReducer';
 // import PropParent from './Components/ContextAPI/PropParent';
 // import PropParentContextAPI from './Components/ContextAPI/propDrilling/PropParentContextAPI';
 // import AxiosData from './Components/useEffect.js/AxiosData';
@@ -58,7 +59,8 @@ function App() {
       {/* <MouseContainerCleanup /> */}
       {/* <PropParent /> */}
       {/* <PropParentContextAPI /> */}
-      <UseContext />
+      {/* <UseContext /> */}
+      <CountByReducer />
     </div>
   );
 }
