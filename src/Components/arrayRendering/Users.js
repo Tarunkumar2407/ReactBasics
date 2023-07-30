@@ -1,4 +1,5 @@
 import React from 'react'
+import UserChild from './UserChild'
 
 const Users = () => {
 
@@ -9,11 +10,12 @@ const Users = () => {
     <div>
       <h1>Reuse component with list</h1>
       {
-        array.map((item)=>{
+        array.map((item, i)=>{
             return (
-                <h1>{item.name}</h1>
-            )
-            
+                
+                <UserChild data={item} id={i}/>
+                
+            )           
         })
       }
     </div>
