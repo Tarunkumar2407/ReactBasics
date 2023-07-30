@@ -1,6 +1,7 @@
 import './App.css';
 // import ArrayObjectRendering from './Components/arrayRendering/ArrayOfObjectRendering';
-import Users from './Components/arrayRendering/Users';
+// import Users from './Components/arrayRendering/Users';
+import Parent from './Components/liftingStateUp/Parent';
 // import ArrayRendering from './Components/arrayRendering/ArrayRendering';
 // import BootStrapButtons from './Components/bootstrap/BootStrapButtons';
 // import Tailwind from './Components/tailwindcss.js/Tailwind';
@@ -78,7 +79,8 @@ function App() {
       {/* <Tailwind /> */}
       {/* <ArrayRendering /> */}
       {/* <ArrayObjectRendering /> */}
-      <Users />
+      {/* <Users /> */}
+      <Parent />
     </div>
   );
 }
