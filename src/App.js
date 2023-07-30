@@ -1,6 +1,8 @@
 import './App.css';
+import Counter1 from './Components/useCustomHook/Counter1';
+import Counter2 from './Components/useCustomHook/Counter2';
 // import ComplexState from './Components/useReducer/ComplexState';
-import UseRefHook from './Components/useRefHook.js/UseRefHook';
+// import UseRefHook from './Components/useRefHook.js/UseRefHook';
 // import UseContext from './Components/useContextHook/ContextAPI/propDrilling/UseContext';
 // import CountByReducer from './Components/useReducer/?CountByReducer';
 // import PropParent from './Components/ContextAPI/PropParent';
@@ -64,7 +66,9 @@ function App() {
       {/* <UseContext /> */}
       {/* <CountByReducer /> */}
       {/* <ComplexState /> */}
-      <UseRefHook />
+      {/* <UseRefHook /> */}
+      <Counter1 />
+      <Counter2 />
     </div>
   );
 }
