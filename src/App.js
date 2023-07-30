@@ -1,4 +1,5 @@
 import './App.css';
+import ArrayRendering from './Components/arrayRendering/ArrayRendering';
 // import BootStrapButtons from './Components/bootstrap/BootStrapButtons';
 import Tailwind from './Components/tailwindcss.js/Tailwind';
 // import Counter1 from './Components/useCustomHook/Counter1';
@@ -72,7 +73,8 @@ function App() {
       {/* <Counter1 /> */}
       {/* <Counter2 /> */}
       {/* <BootStrapButtons /> */}
-      <Tailwind />
+      {/* <Tailwind /> */}
+      <ArrayRendering />
     </div>
   );
 }
