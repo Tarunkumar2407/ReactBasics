@@ -1,4 +1,5 @@
 import React from "react";
+import Table from 'react-bootstrap/Table';
 
 const ArrayObjectRendering = () => {
   const array = [
@@ -41,15 +42,18 @@ const ArrayObjectRendering = () => {
   return (
     <div>
      <h1>Array Object Rendering With Table</h1>
-      <table border="2">
-        <tr>
+      <Table striped bordered hover variant="dark">
+       <thead>
+       <tr>
           <td>NAME</td>
           <td>GENDER</td>
           <td>AGE</td>
           <td>EMAIL ID</td>
           <td>PHONE</td>
         </tr>
-        {array.map((item) => {
+       </thead>
+       <tbody>
+       {array.map((item) => {
           return (
             <tr>
               <td>{item.name}</td>
@@ -60,8 +64,9 @@ const ArrayObjectRendering = () => {
             </tr>
           );
         })}
-        <td></td>
-      </table>
+       </tbody>
+        
+      </Table>
     </div>
   );
 };
