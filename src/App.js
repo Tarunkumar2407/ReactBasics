@@ -1,6 +1,8 @@
 import './App.css';
-import Counter1 from './Components/useCustomHook/Counter1';
-import Counter2 from './Components/useCustomHook/Counter2';
+// import BootStrapButtons from './Components/bootstrap/BootStrapButtons';
+import Tailwind from './Components/tailwindcss.js/Tailwind';
+// import Counter1 from './Components/useCustomHook/Counter1';
+// import Counter2 from './Components/useCustomHook/Counter2';
 // import ComplexState from './Components/useReducer/ComplexState';
 // import UseRefHook from './Components/useRefHook.js/UseRefHook';
 // import UseContext from './Components/useContextHook/ContextAPI/propDrilling/UseContext';
@@ -67,8 +69,10 @@ function App() {
       {/* <CountByReducer /> */}
       {/* <ComplexState /> */}
       {/* <UseRefHook /> */}
-      <Counter1 />
-      <Counter2 />
+      {/* <Counter1 /> */}
+      {/* <Counter2 /> */}
+      {/* <BootStrapButtons /> */}
+      <Tailwind />
     </div>
   );
 }
