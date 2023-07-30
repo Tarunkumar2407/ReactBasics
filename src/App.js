@@ -1,9 +1,10 @@
 import './App.css';
-import ControlledComponent from './Components/basics/ControlledComponent';
-import PureComponent from './Components/basics/PureComponent';
+// import ControlledComponent from './Components/basics/ControlledComponent';
+// import PureComponent from './Components/basics/PureComponent';
+import Uncontrolled from './Components/basics/Uncontrolled';
 // import ArrayObjectRendering from './Components/arrayRendering/ArrayOfObjectRendering';
 // import Users from './Components/arrayRendering/Users';
-import Parent from './Components/liftingStateUp/Parent';
+// import Parent from './Components/liftingStateUp/Parent';
 // import ArrayRendering from './Components/arrayRendering/ArrayRendering';
 // import BootStrapButtons from './Components/bootstrap/BootStrapButtons';
 // import Tailwind from './Components/tailwindcss.js/Tailwind';
@@ -84,7 +85,8 @@ function App() {
       {/* <Users /> */}
       {/* <Parent /> */}
       {/* <PureComponent /> */}
-      <ControlledComponent />
+      {/* <ControlledComponent /> */}
+      <Uncontrolled />
     </div>
   );
 }
