@@ -1,5 +1,6 @@
 import './App.css';
-import ArrayObjectRendering from './Components/arrayRendering/ArrayOfObjectRendering';
+// import ArrayObjectRendering from './Components/arrayRendering/ArrayOfObjectRendering';
+import Users from './Components/arrayRendering/Users';
 // import ArrayRendering from './Components/arrayRendering/ArrayRendering';
 // import BootStrapButtons from './Components/bootstrap/BootStrapButtons';
 // import Tailwind from './Components/tailwindcss.js/Tailwind';
@@ -76,7 +77,8 @@ function App() {
       {/* <BootStrapButtons /> */}
       {/* <Tailwind /> */}
       {/* <ArrayRendering /> */}
-      <ArrayObjectRendering />
+      {/* <ArrayObjectRendering /> */}
+      <Users />
     </div>
   );
 }
