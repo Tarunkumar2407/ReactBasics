@@ -1,4 +1,5 @@
 import './App.css';
+import ControlledComponent from './Components/basics/ControlledComponent';
 import PureComponent from './Components/basics/PureComponent';
 // import ArrayObjectRendering from './Components/arrayRendering/ArrayOfObjectRendering';
 // import Users from './Components/arrayRendering/Users';
@@ -82,7 +83,8 @@ function App() {
       {/* <ArrayObjectRendering /> */}
       {/* <Users /> */}
       {/* <Parent /> */}
-      <PureComponent />
+      {/* <PureComponent /> */}
+      <ControlledComponent />
     </div>
   );
 }
