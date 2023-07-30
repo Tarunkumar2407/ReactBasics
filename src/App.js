@@ -1,7 +1,8 @@
 import './App.css';
-import ArrayRendering from './Components/arrayRendering/ArrayRendering';
+import ArrayObjectRendering from './Components/arrayRendering/ArrayOfObjectRendering';
+// import ArrayRendering from './Components/arrayRendering/ArrayRendering';
 // import BootStrapButtons from './Components/bootstrap/BootStrapButtons';
-import Tailwind from './Components/tailwindcss.js/Tailwind';
+// import Tailwind from './Components/tailwindcss.js/Tailwind';
 // import Counter1 from './Components/useCustomHook/Counter1';
 // import Counter2 from './Components/useCustomHook/Counter2';
 // import ComplexState from './Components/useReducer/ComplexState';
@@ -74,7 +75,8 @@ function App() {
       {/* <Counter2 /> */}
       {/* <BootStrapButtons /> */}
       {/* <Tailwind /> */}
-      <ArrayRendering />
+      {/* <ArrayRendering /> */}
+      <ArrayObjectRendering />
     </div>
   );
 }
