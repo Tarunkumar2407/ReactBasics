@@ -1,6 +1,7 @@
 import './App.css';
+import ComplexState from './Components/useReducer/ComplexState';
 // import UseContext from './Components/useContextHook/ContextAPI/propDrilling/UseContext';
-import CountByReducer from './Components/useReducer/CountByReducer';
+// import CountByReducer from './Components/useReducer/?CountByReducer';
 // import PropParent from './Components/ContextAPI/PropParent';
 // import PropParentContextAPI from './Components/ContextAPI/propDrilling/PropParentContextAPI';
 // import AxiosData from './Components/useEffect.js/AxiosData';
@@ -60,7 +61,8 @@ function App() {
       {/* <PropParent /> */}
       {/* <PropParentContextAPI /> */}
       {/* <UseContext /> */}
-      <CountByReducer />
+      {/* <CountByReducer /> */}
+      <ComplexState />
     </div>
   );
 }
