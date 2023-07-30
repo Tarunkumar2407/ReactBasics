@@ -1,4 +1,5 @@
 import './App.css';
+import PureComponent from './Components/basics/PureComponent';
 // import ArrayObjectRendering from './Components/arrayRendering/ArrayOfObjectRendering';
 // import Users from './Components/arrayRendering/Users';
 import Parent from './Components/liftingStateUp/Parent';
@@ -80,7 +81,8 @@ function App() {
       {/* <ArrayRendering /> */}
       {/* <ArrayObjectRendering /> */}
       {/* <Users /> */}
-      <Parent />
+      {/* <Parent /> */}
+      <PureComponent />
     </div>
   );
 }
